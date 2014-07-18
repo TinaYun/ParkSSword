@@ -21,6 +21,7 @@ public class ManualPassword extends ActionBarActivity {
         String domin = intent.getStringExtra("domin");
         Log.e("Recieve",domin);
 
+        
         Toast.makeText(getBaseContext(),domin,Toast.LENGTH_LONG);
     }
 
