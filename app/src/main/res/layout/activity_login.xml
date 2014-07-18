@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:gravity="center_vertical"
+    tools:context="codeeer.parkssword_android.app.Login">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/UserName"
+        android:layout_gravity="center"
+        android:hint="@string/username"
+        android:layout_marginTop="137dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffff7f00" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/PassWord"
+        android:layout_gravity="center"
+        android:layout_below="@+id/UserName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp"
+        android:hint="@string/password"
+        android:textColor="#ffff7f00" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Button_Login"
+        android:id="@+id/Button_LoginAccount"
+        android:layout_alignWithParentIfMissing="false"
+        android:onClick="submit_Password"
+        android:layout_toEndOf="@+id/Button_ForgetAccount"
+        android:layout_toStartOf="@+id/Button_SignUp"
+        android:layout_above="@+id/Button_SignUp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/Button_SignUp"
+        android:layout_alignEnd="@+id/Button_SignUp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="找回密码"
+        android:id="@+id/Button_ForgetAccount"
+        android:layout_alignWithParentIfMissing="false"
+        android:onClick="forget_Password"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/PassWord"
+        android:layout_alignEnd="@+id/PassWord" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:id="@+id/Button_SignUp"
+        android:layout_alignWithParentIfMissing="false"
+        android:onClick="Button_SignUp_Pre"
+        android:layout_above="@+id/Button_ForgetAccount"
+        android:layout_alignRight="@+id/Button_ForgetAccount"
+        android:layout_alignEnd="@+id/Button_ForgetAccount"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

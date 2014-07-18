@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="E:\CODE\ParkSSword_Android\app\build\intermediates\pre-dexed\debug\classes-4d2e9e9920e67739d6240fa9d6f5b44501e5f26e.jar"
+        jar="E:\CODE\ParkSSword_Android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="E:\CODE\ParkSSword_Android\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-a2729c099fb4610e744f7c4a65d07bb0c10ea40c.jar"
+        jar="D:\Public APP\Java\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+
+</pre-dex-items>

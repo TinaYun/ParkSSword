@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ParkSSword</string>
+    <string name="action_settings">设置</string>
+    <string name="Button_PSS">PSS</string>
+    <string name="AutoInputNotice">请输入域名</string>
+    <string name="synchrodata">同步</string>
+    <string name="cleanupHistory">清空历史记录</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Login">登录</string>
+    <string name="title_activity_login">登录帐号</string>
+    <string name="username">账号</string>
+    <string name="password">密码</string>
+    <string name="Button_Login">登录</string>
+    <string name="logoff">注销</string>
+    <string name="title_activity_number_password">NumberPassword</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_enter_pwd">EnterPWD</string>
+    <string name="title_activity_app_login_pwd">AppLoginPWD</string>
+    <string name="title_activity_app_login_pwdsetting">AppLoginPWDSetting</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_forget_password">ForgetPassword</string>
+    <string name="title_activity_manual_password">ManualPassword</string>
+
+</resources>

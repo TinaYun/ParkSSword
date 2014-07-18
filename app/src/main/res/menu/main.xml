@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="codeeer.parkssword_android.app.MainActivity" >
+
+    <item android:id="@+id/action_synchrodata"
+        android:title="@string/synchrodata"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_logoff"
+        android:title="@string/logoff"
+        app:showAsAction="never"
+        android:onClick="Logoff"/>
+    <item android:id="@+id/action_cleanup"
+        android:title="@string/cleanupHistory"
+        app:showAsAction="never" />
+</menu>

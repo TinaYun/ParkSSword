@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="codeeer.parkssword_android.app" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-sdk android:minSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+        <activity
+            android:name=".MainActivity"
+            android:label="ParkSSword" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="ParkSSword" >
+        </activity>
+        <activity
+            android:name=".AppLoginPWD"
+            android:label="ParkSSword" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AppLoginPWDSetting"
+            android:label="ParkSSword" >
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:label="ParkSSword" >
+        </activity>
+        <activity
+            android:name=".ForgetPassword"
+            android:label="ParkSSword" >
+        </activity>
+        <activity
+            android:name=".ManualPassword"
+            android:label="ParkSSword" >
+        </activity>
+    </application>
+
+</manifest>
