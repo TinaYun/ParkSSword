@@ -164,6 +164,31 @@ public class Functions{
         }
     }
 
+    public static String CreatCore(String SourceText,String _PasswordPool,boolean _LockCPU,boolean _LockHard,boolean _LockUSB,int _PasswordLength,int _MD5Times){
+        try
+        {
+            String TempStr = SourceText;
+
+            for (int i = 0; i < 16; i++)
+            {
+                TempStr = MD5.Bit16(TempStr).toUpperCase();
+            }
+
+            //启用手动加密序列
+            String CPUID = _LockCPU ? CPUCodeStr : "";
+            String HardID = _LockHard ? HardCodeStr : "";
+            String USBID = _LockUSB ? USBCodeStr : "";
+
+            TempStr = MD5.Manual(TempStr, _PasswordPool, _PasswordLength, _MD5Times, CPUID, HardID, USBID);
+
+            return TempStr;
+        }
+        catch (Exception E)
+        {
+            throw new RuntimeException(E.getMessage());
+        }
+    }
+
     public static String PasswordFormat(String SourcePassword) throws Exception {
 
         String Temp = SourcePassword;

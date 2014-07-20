@@ -153,6 +153,7 @@ public class MainActivity extends Activity implements TextWatcher {
                 bundle.putString("domin", lst.getItemAtPosition(position).toString());
                 intent.putExtras(bundle);
                 startActivityForResult(intent, 1);
+                vibrator.vibrate(10);
 
                 /*
                 Functions.LoadBaseInfo(sh);
